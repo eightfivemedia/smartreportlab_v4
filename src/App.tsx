@@ -4,6 +4,9 @@ import Dashboard from './pages/Dashboard';
 import Landing from './pages/Landing';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Pricing from './pages/Pricing';
+import Features from './pages/Features';
+import HowItWorks from './pages/HowItWorks';
 import CreateClient from './pages/CreateClient';
 import ClientDetails from './pages/ClientDetails';
 import EditClient from './pages/EditClient';
@@ -32,6 +35,9 @@ function App() {
       <Route path="/" element={<Landing />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/pricing" element={<Pricing />} />
+      <Route path="/features" element={<Features />} />
+      <Route path="/how-it-works" element={<HowItWorks />} />
       <Route path="/privacy" element={<Privacy />} />
       <Route path="/terms" element={<Terms />} />
       <Route path="/dashboard/*">
